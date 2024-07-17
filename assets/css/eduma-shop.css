@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto Slab';
+
+:root {
+    --primay-color: #003AAA;
+    --bg-sub-head: rgba(243, 247, 255, 1);
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --color-text: black;
+    --color-text-white: white;
+    --bg-slider-2: #26507F;
+    --bg-slider-1: #00776E;
+    --bg-slider-3: #CEB096;
+    --bg-btn-w: white;
+    --hover-shop-now: #FFC700;
+    --color-text-hover-shop-now: white;
+    --color-warning: #E74040;
+    --bg-hover: #FFC700;
+    --box-bg-color: blue;
+
+}
+
+.support {
+    padding-top: 50px;
+}
+
+.pagination {
+    width: 100px;
+    height: 20px;
+    background: red;
+}
+
+
+@media (min-width:1230) {}
+
+@media (max-width: 1200px) {}
+
+
+@media (min-width: 1025px) {}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .list-items {
+        margin-left: unset;
+     
+        margin-right: unset;
+    }
+    .item-product a {
+        height: 420px;
+    }
+}
+
+/* MOBILE EXTRA */
+@media (min-width: 768px) and (max-width: 992px) {
+    .list-items {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .item-product a {
+        height: 480px;
+    }
+}
+
+/* MOBILE */
+@media (min-width: 870px) {}
+
+@media (max-width: 767px) {
+    .list-items {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .item-product a {
+        height: 400px;
+    }
+}
+
+@media (max-width: 630px) {
+    .item-product a {
+        height: 270px;
+    }
+}@media (max-width: 430px) {
+    .item-product a {
+        height: 220px;
+    }
+    .item-product .product-name{
+        font-size: 14px;
+    }
+}
+@media (max-width: 376px) {
+    .item-product a {
+        height: 220px;
+    }
+    .item-product .product-name{
+        font-size: 12px;
+    }
+    .item-product .product-price{
+        font-size: 12px;
+    }
+}

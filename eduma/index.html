@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE HTK</title>
+     <!-- boostrap -->
+ <link rel="stylesheet" href="../assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+ <!-- boostrap icon -->
+ <link rel="stylesheet" href="../assets/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+ <!-- fontawesome -->
+ <link rel="stylesheet" href="../assets/fontawesome-free-5.0.1/css/fontawesome-all.css">
+ <!-- slick css -->
+ <link rel="stylesheet" href="../assets/slick/slick.css">
+ <!-- <link rel="stylesheet" href="../assets/slick/slick-theme.css"> -->
+ <!-- responsive -->
+ <link rel="stylesheet" href="../assets/css/grid-responsive-eduma.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="../assets/css/eduma.css">
+ <link rel="stylesheet" href="../assets/css/wishlist.css">
+ <link rel="stylesheet" href="../assets/css/eduma-shop.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="menu-hide">
+        <div class="close-menu-icon">
+            <label name="close-menu-input" for="close-menu-input"><i class="fas fa-times"></i></label>
+        </div>
+        <ul class="nav-menu-hidden">
+            <li class="nav-item-hidden menu-product-hidden">
+                <div class="link-item-hidden">
+                    <a class="" href="">Products</a>
+                    <label name="show-products" for="show-products">
+                        <i class="bi bi-chevron-down"></i>
+                    </label>
+                </div>
+                <ul class="product-items-hidden">
+                    <li class="item-pro title">School Solutions</li>
+                    <li class="item-pro"><a href="">Accessories</a></li>
+                    <li class="item-pro"><a href="">Cookware</a></li>
+                    <li class="item-pro"><a href="">Culinary</a></li>
+                    <li class="item-pro title">University Solutions</li>
+                    <li class="item-pro"><a href="">Files & Folders</a></li>
+                    <li class="item-pro"><a href="">Desk Accessories</a></li>
+                    <li class="item-pro"><a href="">Office Desk</a></li>
+                    <li class="item-pro title">School Solutions</li>
+                    <li class="item-pro"><a href="">Paper & NoteBooks</a></li>
+                    <li class="item-pro"><a href="">Pens & Writing</a></li>
+                    <li class="item-pro"><a href="">Printer</a></li>
+
+                </ul>
+            </li>
+            <li class="nav-item"><a class="link-item" href="">Best Deals</a></li>
+            <li class="nav-item"><a class="link-item" href="">Paper & NoteBooks</a></li>
+            <li class="nav-item"><a class="link-item" href="">Office Desk</a></li>
+            <input type="checkbox" hidden id="show-pages" name="show-pages">
+            <li class="nav-item menu-page">
+                <div class="link-item">
+                    <a class="" href="">Page</a>
+                    <label name="show-pages" for="show-pages"> <i class="bi bi-chevron-down"></i></label>
+                </div>
+                <ul class="page-items-hidden">
+                    <li class="item-page"><a href="">Accessories</a></li>
+                    <li class="item-page"><a href="">Cookware</a></li>
+                    <li class="item-page"><a href="">Culinary</a></li>
+                    <li class="item-page"><a href="">Files & Folders</a></li>
+                    <li class="item-page"><a href="">Desk Accessories</a></li>
+                    <li class="item-page"><a href="">Office Desk</a></li>
+                    <li class="item-page"><a href="">Paper & NoteBooks</a></li>
+                    <li class="item-page"><a href="">Pens & Writing</a></li>
+                    <li class="item-page"><a href="">Printer</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="cart">
+        <div class="content-cart">
+            <div class="cart-head">
+                <h3>Shopping Cart</h3>
+                <button class="btn-close-cart">CLOSE<i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-items">
+                <div class="item">
+                    <img src="../assets/images/eduma/Costway-48-Computer-Desk-Study-Workstation-Laptop-Table-Home-Office-5.webp" alt="">
+                    <div class="name-content">
+                        <span>Weekly Undated Planner Set B6</span>
+                        <span>1 × $58.00</span>
+                    </div>
+                    <button><i class="fas fa-times"></i></button>
+                </div>
+
+            </div>
+            <div class="footer-cart">
+                <div class="total"><span>Subtotal:</span><span>$226.00</span></div>
+                <button class="btn-view-card">view card</button>
+                <button class="btn-check-count">checkout</button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-menu"></div>
+
+    <!--end menu hidden -->
+    <div class="header">
+        <nav>
+            <div class="wrapper sub-header grid wide">
+                <p>Hotline: <a href="#">+16468801999</a></p>
+                <p class="sale-off"><strong>25% OFF</strong> Multi-Use Print & Copy Paper with code
+                    <strong>EDUMA2024</strong>
+                </p>
+                <section class="menu-sub-head">
+                    <select name="language" id="language">
+                        <option value="EN">EN</option>
+                        <option value="CN">CN</option>
+                        <option value="DE">DE</option>
+                    </select>
+                    <select name="currency" id="currency">
+                        <option value="USD">USD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="Yen">Yen</option>
+                    </select>
+                    <div class="login">
+                        <button href="">Login</button>
+                    </div>
+                </section>
+            </div>
+        </nav>
+        <nav>
+            <div class="wrapper main-header navbar grid wide">
+                <label class="menu-icon menu-icon-ctrl"><i class="bi bi-list"></i></label>
+                <a href="index.php" class="logo"><img src="../assets/images/eduma/Logo.svg" alt="EDUMA2024"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item menu-product">
+                        <a class="link-item" href="shop.php">Products <i class="bi bi-chevron-down"></i></a>
+                        <ul class="product-items">
+                            <li class="item-pro">School Solutions</li>
+                            <li class="item-pro">University Solutions</li>
+                            <li class="item-pro">School Solutions</li>
+                            <li class="item-pro"><a href="">Accessories</a></li>
+                            <li class="item-pro"><a href="">Cookware</a></li>
+                            <li class="item-pro"><a href="">Culinary</a></li>
+                            <li class="item-pro"><a href="">Files & Folders</a></li>
+                            <li class="item-pro"><a href="">Desk Accessories</a></li>
+                            <li class="item-pro"><a href="">Office Desk</a></li>
+                            <li class="item-pro"><a href="">Paper & NoteBooks</a></li>
+                            <li class="item-pro"><a href="">Pens & Writing</a></li>
+                            <li class="item-pro"><a href="">Printer</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="link-item" href="">Best Deals</a></li>
+                    <li class="nav-item"><a class="link-item" href="">Paper & NoteBooks</a></li>
+                    <li class="nav-item"><a class="link-item" href="">Office Desk</a></li>
+                    <li class="nav-item menu-page"><a class="link-item" href="">Page</a>
+                        <ul class="page-items">
+                            <li class="item-page"><a href="">Accessories</a></li>
+                            <li class="item-page"><a href="">Cookware</a></li>
+                            <li class="item-page"><a href="">Culinary</a></li>
+                            <li class="item-page"><a href="">Files & Folders</a></li>
+                            <li class="item-page"><a href="">Desk Accessories</a></li>
+                            <li class="item-page"><a href="">Office Desk</a></li>
+                            <li class="item-page"><a href="">Paper & NoteBooks</a></li>
+                            <li class="item-page"><a href="">Pens & Writing</a></li>
+                            <li class="item-page"><a href="">Printer</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="extension">
+                    <button class="btn-search">
+                        <i class="bi bi-search"></i>
+                        <form action="" class="">
+                            <input type="text">
+
+                            <a href=""> <i class="bi bi-search"></i></a>
+                        </form>
+                    </button>
+                    <a href="wishlist.php" class="wishlist"><i class="bi bi-heart"></i><span>1</span></a>
+                    <button class="btn-cart"><i class="bi bi-cart"></i><span>1</span></button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HEADER -->
+    <!-- login -->
+    <section class="login-form ">
+        <div class="login-overlay active">
+            <i class="bi bi-x-lg icon-delete cursor-login"></i>
+        </div>
+        <div class="form-account">
+            <div>
+                <form class="form-1">
+                    <h4>Login with your site account</h4>
+                    <input type="text" placeholder="Username or email">
+                    <input type="password" placeholder="Passwrod">
+                    <div class="remember">
+                        <div class="re">
+                            <input type="checkbox" id="rememberMe" name="rememberMe">
+                            <label for="rememberMe" name="rememberMe">Remember Me</label>
+                        </div>
+                        <div class="forgot">
+                            <a href="">Lost your password?</a>
+                        </div>
+                    </div>
+                    <button class="btn-login">Login</button>
+                    <p class="register-now">Not a member yet?<button>Register now</button></p>
+                    <div class="access">
+                        <span>Wanna see how Student, Instructor, or Admin look? </span>
+                        <a href="">Click here to access Demo Account</a>
+                    </div>
+                </form>
+                <form class="form-2">
+                    <h4>Register a new account</h4>
+                    <input type="text" placeholder="Username">
+                    <input type="Email" placeholder="Email">
+                    <input type="password" placeholder="Passwrod">
+                    <input type="password" placeholder="Repeat Passwrod">
+                    <button class="btn-register">Register</button>
+                    <p class="login-now">Not a member yet?<button>Login now</button></p>
+                    <div class="access">
+                        <span>Wanna see how Student, Instructor, or Admin look? </span>
+                        <a href="">Click here to access Demo Account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>   <!-- banner -->
+   <div class="slider-content">
+        <div class="banner slider ">
+            <div class="wrap-banner">
+                <section class="wide grid">
+                    <div class="row">
+                        <div class="content-banner col t-6 c-12 l-4">
+                            <div class="wrap-content">
+                                <p>Back to school SALE UP TO 50%</p>
+                                <h2 class="title">Everything For Office & School Supplies</h2>
+                                <a href="" class="">SHOP NOW</a>
+                            </div>
+                        </div>
+                        <div class="img-banner col t-6 c-12 l-8">
+                            <img src="../assets/images/eduma/bannerslider-1.webp" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="wrap-banner">
+                <section class="wide grid">
+                    <div class="row">
+                        <div class="content-banner col t-6 c-12 l-4">
+                            <div class="wrap-content">
+                                <p>Back to school SALE UP TO 50%</p>
+                                <h2 class="title">Everything For Office & School Supplies</h2>
+                                <a href="" class="">SHOP NOW</a>
+                            </div>
+                        </div>
+                        <div class="img-banner col t-6 c-12 l-8">
+                            <img src="../assets/images/eduma/bannerslider-2.webp" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="wrap-banner">
+                <section class="wide grid">
+                    <div class="row">
+                        <div class="content-banner col t-6 c-12 l-4">
+                            <div class="wrap-content">
+                                <p>Back to school SALE UP TO 50%</p>
+                                <h2 class="title">Everything For Office & School Supplies</h2>
+                                <a href="" class="">SHOP NOW</a>
+                            </div>
+                        </div>
+                        <div class="img-banner col t-6 c-12 l-8">
+                            <img src="../assets/images/eduma/bannerslider-3.webp" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- end banner --> <!-- categories -->
+ <div class="categories">
+        <div class="control-slide ">
+            <button class="prev"><i class="fas fa-chevron-left"></i></i></button>
+            <button class="next"><i class="fas fa-chevron-right"></i></i></button>
+        </div>
+        <div class="cate-items wide grid">
+            <div class="cate-item">
+                <img src="../assets/images/eduma/paper-notebooks.png" alt="">
+                <p>Paper & NoteBooks</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/Printer.png" alt="">
+                <p>Printer</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/Pens-Writing.webp" alt="">
+                <p>Pens & Writing</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/Desk-Accessories.webp" alt="">
+                <p>Desk Accessories</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/Files-Folders.webp" alt="">
+                <p>Files & Folders</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/Office-Desk.png" alt="">
+                <p>Office Desk</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/Weekly-Undated-Planner-Set-B6-2.webp" alt="">
+                <p>Paper</p>
+            </div>
+            <div class="cate-item">
+                <img src="../assets/images/eduma/2024-Wall-Calendar-Greetings-From-Around-The-World.webp" alt="">
+                <p>Calenda</p>
+            </div>
+        </div>
+    </div>
+    <!-- end categories -->
+    <!-- discount  -->
+    <div class="wrap-discount-banner wide grid">
+        <div class="row wrap-discount-banner-slide">
+            <div class="col l-4">
+                <div class="item-discount">
+                    <div class="discount-banner">
+                        <img src="../assets/images/eduma/Banner-1.webp" alt="">
+                    </div>
+                    <div class="discount-content">
+                        <h3 class="title">First Order</h3>
+                        <p class="sub-title">online and in store</p>
+                        <div class="percent">
+                            <div>10</div>
+                            <div>%<span>Off</span></div>
+                        </div>
+                        <p class="use-code">Use code: EDUMA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4">
+                <div class="item-discount">
+                    <div class="discount-banner">
+                        <img src="../assets/images/eduma/Banner-2.webp" alt="">
+                    </div>
+                    <div class="discount-content">
+                        <h3 class="title">First Order</h3>
+                        <p class="sub-title">online and in store</p>
+                        <div class="percent">
+                            <div>10</div>
+                            <div>%<span>Off</span></div>
+                        </div>
+                        <p class="use-code">Use code: EDUMA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4">
+                <div class="item-discount">
+                    <div class="discount-banner">
+                        <img src="../assets/images/eduma/Banner-3.webp" alt="">
+                    </div>
+                    <div class="discount-content">
+                        <h3 class="title">First Order</h3>
+                        <p class="sub-title">online and in store</p>
+                        <div class="percent">
+                            <div>10</div>
+                            <div>%<span>Off</span></div>
+                        </div>
+                        <p class="use-code">Use code: EDUMA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end discount  -->    <!-- list product -->
+    <div class="product-table">
+        <div class="menu-table">
+            <button class="item item-popular" data-value-table="popular">POPULAR</button>
+            <button class="item " data-value-table="bestseller">BEST SELLERS</button>
+            <button class="item" data-value-table="toprate">TOP RATED</button>
+        </div>
+        <div class="list-product grid wide">
+            <div class="row list-items popular">
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row list-items best-seller">
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row list-items top-rate ">
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+                <div class="wrap-item col l-3 t-4 c-6">
+                    <div class="item-product ">
+                        <div class="short-cut">
+                            <button><i class="far bi-search"></i></button>
+                            <button><i class="far fa-heart"></i></button>
+                            <button><i class="bi bi-arrow-repeat"></i></button>
+                            <button cart="show-cart" style="display: block"><i class="far bi-cart"></i></button>
+                            <button style="display: block"><i class="bi bi-three-dots"></i></button>
+                        </div>
+                        <div class="precent-discount active">
+                            20%
+                        </div>
+                        <a href=""><img class="product-image" src="../assets/images/eduma/Fountain-Pen-And-Journals-Gift-Set.webp" alt=""></a>
+                        <p class="product-name">Safari Fountain Pen Gift Set </p>
+                        <p class="product-price">$35.00</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-more">
+                see more products
+            </button>
+        </div>
+    </div>
+
+ <!--
+    <div class="modal-product grid wide">
+        <div class="row">
+            <div class="col t-6">fasfsa</div>
+            <div class="col t-6">
+                <div class="item-modal">
+                    <h1>Safari Fountain Pen Gift Set</h1>
+                    <div class="card-review">
+                        <div class="stars">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <div class="overlay">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                        <div class="review-count">(3 customer reviews)</div>
+                    </div>
+                    <p class="price">$35.00</p>
+                    <hr>
+                    <p class="des">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Maecenas pretium pretium iaculis. Nullam
+                        vestibulum vestibulum libero. Phasellus ut pulvinar mi. Donec
+                        id pretium ante.</p>
+                    <p>
+                        Out of stock
+                    </p>
+                    <div class="short-cut-modal">
+                        <button><i class="far fa-heart"></i></button>
+                        <button><i class="bi bi-arrow-repeat"></i></button>
+                    </div>
+                    <p>Categories: <a href="">Culinary</a>,<a href=""> Desk Accessories</a>,<a href=""> Paper & NoteBooks</a>,<a href=""> Pens & Writing</a>, Uncategorized</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->    <!-- deal of week -->
+    <div class="wrap-deal grid wide">
+        <div class="row deal-of-week ">
+            <div class="col l-4 t-12 c-12 mx-12">
+                <div class="deal-content">
+                    <h4>Deals of the week</h4>
+                    <h2 class="deal-title">Back To School</h2>
+                    <h3 class="headding-title">
+                        <span>Sale up to</span>
+                        <span></span>
+                    </h3>
+                    <p class="title">30%</p>
+                    <h3 class="headding-title-2">
+                        <span>All products</span>
+                        <span></span>
+                    </h3>
+                    <a href="" class="btn-view-all">
+                        VIEW ALL
+                    </a>
+                </div>
+            </div>
+            <div class="col l-8 t-12 c-12  mx-12">
+                <div class="row">
+                    <div class="col l-6  mx-6 t-6 c-12">
+                        <div class="deal-card">
+                            <div class="card-image">
+                                <img src="../assets/images/eduma/Costway-48-Computer-Desk-Study-Workstation-Laptop-Table-Home-Office-5.webp"
+                                    alt="name">
+                            </div>
+                            <p class="card-name">Notebook With Pen A6 Black/Gold</p>
+                            <p class="card-price">
+                                <span>$26.00</span>
+                                <span>$22.00</span>
+                            </p>
+                            <div class="card-review">
+                                <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <div class="overlay">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+
+                                <div class="review-count">(1 review)</div>
+                            </div>
+                            <div class="process">
+                                <span class="obtain"></span>
+                            </div>
+                            <p class="stock instock">Hurry! Only <span>250</span> left in stock</p>
+                        </div>
+                    </div>
+                    <div class="col l-6  mx-6 t-6 c-12">
+                        <div class="deal-card">
+                            <div class="card-image">
+                                <div class="count-down-card" data-value-secs="410700">
+                                    <div class="item-count-down">
+                                        <span class="days"></span>
+                                        <span>Days</span>
+                                    </div>
+                                    <div class="item-count-down">
+                                        <span class="hours"></span>
+                                        <span>Hours</span>
+                                    </div>
+                                    <div class="item-count-down">
+                                        <span class="mins"></span>
+                                        <span>Mins</span>
+                                    </div>
+                                    <div class="item-count-down">
+                                        <span class="secs"></span>
+                                        <span>Secs</span>
+                                    </div>
+                                </div>
+                                <img src="../assets/images/eduma/Costway-48-Computer-Desk-Study-Workstation-Laptop-Table-Home-Office-5.webp"
+                                    alt="name">
+                            </div>
+                            <p class="card-name">Notebook With Pen A6 Black/Gold</p>
+                            <p class="card-price">
+                                <span>$26.00</span>
+                                <span>$22.00</span>
+                            </p>
+                            <div class="card-review">
+                                <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <div class="overlay">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+
+                                <div class="review-count">(1 review)</div>
+                            </div>
+                            <div class="process">
+                                <span class="obtain"></span>
+                            </div>
+                            <p class="stock instock">Hurry! Only <span>250</span> left in stock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end deal of week -->    <!-- solution -->
+    <div class="solution grid wide">
+        <h3>We provide the best solutions</h3>
+        <div class="solution-wrap row">
+            <div class="col l-4 t-4 c-12">
+                <div class="sol-card ">
+                    <div class="sol-for">
+                        For
+                    </div>
+                    <img class="sol-card-icon" src="../assets/images/eduma/school-icon.svg" alt="">
+                    <h2 class="sol-card-title">School Solutions</h2>
+                    <p class="sol-card-content">orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
+                        feugiat
+                        mi. Nunc tincidunt, ante rutrum varius mollis.</p>
+                    <a href="" class="sol-card-readmore">readmore</a>
+                </div>
+            </div>
+            <div class="col l-4 t-4 c-12">
+                <div class="sol-card ">
+                    <div class="sol-for">
+                        For
+                    </div>
+                    <img class="sol-card-icon" src="../assets/images/eduma/school-icon.svg" alt="">
+                    <h2 class="sol-card-title">School Solutions</h2>
+                    <p class="sol-card-content">orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
+                        feugiat
+                        mi. Nunc tincidunt, ante rutrum varius mollis.</p>
+                    <a href="" class="sol-card-readmore">readmore</a>
+                </div>
+            </div>
+            <div class="col l-4 t-4 c-12">
+                <div class="sol-card ">
+                    <div class="sol-for">
+                        For
+                    </div>
+                    <img class="sol-card-icon" src="../assets/images/eduma/school-icon.svg" alt="">
+                    <h2 class="sol-card-title">School Solutions</h2>
+                    <p class="sol-card-content">orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
+                        feugiat
+                        mi. Nunc tincidunt, ante rutrum varius mollis.</p>
+                    <a href="" class="sol-card-readmore">readmore</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- slider brand -->
+ <div class="brand ">
+        <div class="wide grid brand-slide " style="overflow: hidden; justify-content: center;">
+            <div class="br-item"><img src="../assets/images/eduma/logo4.webp" alt=""></div>
+            <div class="br-item"><img src="../assets/images/eduma/logo4.webp" alt=""></div>
+            <div class="br-item"><img src="../assets/images/eduma/logo5.webp" alt=""></div>
+            <div class="br-item"><img src="../assets/images/eduma/logo5.webp" alt=""></div>
+            <div class="br-item"><img src="../assets/images/eduma/logo1.webp" alt=""></div>
+            <div class="br-item"><img src="../assets/images/eduma/logo4.webp" alt=""></div>
+            <div class="br-item"></div>
+        </div>
+    </div>
+    <!-- end slider brand -->    <!-- blog -->
+    <div class="from-our-blog grid wide">
+        <h2 class="blog-head">From our blogs</h2>
+        <div class="blog row">
+            <div class="col l-4 mx-6 t-4 c-12 blog-item">
+                <div class="blog-content">
+                    <a href="" class="blog-image"><img src="../assets/images/eduma/Blog-7-1.png" alt=""></a>
+                    <p class="blog-date">JAN 18, 2020
+                    </p>
+                    <h5 class="blog-title">The Best School Supplies For Remote Learning</h5>
+                    <a href="" class="blog-readmore">read more</a>
+                </div>
+            </div>
+            <div class="col l-4 mx-6 t-4 c-12 blog-item">
+                <div class="blog-content">
+                    <a href="" class="blog-image"><img src="../assets/images/eduma/Blog-7-1.png" alt=""></a>
+                    <p class="blog-date">JAN 18, 2020
+                    </p>
+                    <h5 class="blog-title">The Best School Supplies For Remote Learning</h5>
+                    <a href="" class="blog-readmore">read more</a>
+                </div>
+            </div>
+            <div class="col l-4 mx-6 t-4 c-12 blog-item">
+                <div class="blog-content">
+                    <a href="" class="blog-image"><img src="../assets/images/eduma/Blog-7-1.png" alt=""></a>
+                    <p class="blog-date">JAN 18, 2020
+                    </p>
+                    <h5 class="blog-title">The Best School Supplies For Remote Learning</h5>
+                    <a href="" class="blog-readmore">read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-more-blog">
+            <a href="">SEE MORE ARTICLES</a>
+        </div>
+    </div>
+    <!-- end blog -->  <!-- client  -->
+  <div class="our-client wide grid">
+        <div class="client row">
+            <div class="col c-12 t-6 l-6">
+                <div class="client-item">
+                    <div class="client-rate">
+                        <div class="stars">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <div class="overlay">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="client-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip consequat.</p>
+                    <div class="author">
+                        <img class="author-avatar" src="../assets/images/eduma/team-3.webp" alt="">
+                        <div class="in4">
+                            <p class="in4-name">Jessica Alna</p>
+                            <p class="in4-address">Michigan Ave, Chicago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 t-6 l-6">
+                <div class="client-item">
+                    <div class="client-rate">
+                        <div class="stars">
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <i class="bi bi-star"></i>
+                            <div class="overlay">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="client-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip consequat.</p>
+                    <div class="author">
+                        <img class="author-avatar" src="../assets/images/eduma/team-3.webp" alt="">
+                        <div class="in4">
+                            <p class="in4-name">Jessica Alna</p>
+                            <p class="in4-address">Michigan Ave, Chicago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- support -->
+  <div class="support wide grid">
+        <div class="row ">
+            <div class="sp-item col c-6 t-3 l-3">
+                <div class="icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <h5 class="sp-title">Free Shipping</h5>
+                <p class="sp-content">Free shipping on all orders from $59</p>
+            </div>
+            <div class="sp-item col c-6 t-3 l-3">
+                <div class="icon">
+                    <i class="bi bi-credit-card"></i>
+                </div>
+                <h5 class="sp-title">Safe Payments</h5>
+                <p class="sp-content">100% secure payment</p>
+            </div>
+            <div class="sp-item col c-6 t-3 l-3">
+                <div class="icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <h5 class="sp-title">Discount Coupons</h5>
+                <p class="sp-content">Enjoy Huge Promotions</p>
+            </div>
+            <div class="sp-item col c-6 t-3 l-3">
+                <div class="icon">
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <h5 class="sp-title">Quanlity Support</h5>
+                <p class="sp-content">24/7 Support</p>
+            </div>
+        </div>
+    </div>
+    <!--end  support --> <!-- footer -->
+ <footer>
+     <div class="contact wide grid">
+         <div class="row">
+             <div class="col l-4 t-4 c-12">
+                 <img src="../assets/images/eduma/Logo.svg" alt="">
+             </div>
+             <div class="col l-8  t-8 c-12">
+                 <div class="row">
+                     <div class="col col-l-6">
+                         <p>
+                             Subscribe And Get 20% Off Your First Purchase.
+                         </p>
+                     </div>
+                     <form action="" class="col col-l-6">
+                         <input type="text">
+                         <button>Subscribe</button>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <hr class="wide">
+     <div class="f-contact grid wide">
+         <div class="row">
+             <div class="col l-4 t-6 c-12">
+                 <p>Need Help!</p>
+                 <p>We Promise We’ll Get Back To You Promptly Your Gifting
+                     Needs Are Always On Our Minds!</p>
+                 <p><i class="fas fa-phone"> </i> Hotline: +1 515 323 6290</p>
+                 <p class="time">
+                     <i class="far fa-clock"></i>
+                     <span>
+                         <span> Monday – Friday: 9:00-20:00</span>
+                         <span> Saturday: 11:00 – 15:00</span>
+                     </span>
+                 </p>
+                 <p><i class="fas fa-envelope"></i> Email: support@gmail.com</p>
+             </div>
+             <div class="col l-2 t-3 c-12">
+                 <p>Company</p>
+                 <p> About Us</p>
+                 <p> Store Reviews</p>
+                 <p> Operation Status</p>
+                 <p> FAQs</p>
+             </div>
+
+             <div class="col l-2 t-3 c-12">
+                 <p> Gift Cards</p>
+                 <p> Purchase Gift Card</p>
+                 <p> Redeem Gift Card</p>
+                 <p> Gift Card FAQs</p>
+             </div>
+
+             <div class="col l-2 t-3 c-12">
+                 <p> Follow Us</p>
+                 <p>Facebook</p>
+                 <p>Pinterest</p>
+                 <p>Instagram</p>
+                 <p>TikTok</p>
+                 <p>YouTube</p>
+             </div>
+             <div class="col l-2 t-3 c-12">
+                 <p> Custom Services</p>
+                 <p> Delivery</p>
+                 <p> Returns and complaints</p>
+                 <p> Cookie Policy</p>
+                 <p> Pixel disclaimer</p>
+                 <p> Competition Terms</p>
+             </div>
+         </div>
+     </div>
+     <hr class="wide">
+     <div class="f-payment wide grid">
+         <div class="row">
+             <p class="col l-6 t-6 c-12">Copyright © 2024, Eduma Powered by ThimPress</p>
+             <div class="logo-pay col l-6 t-6 c-12">
+                 <i class="fab fa-cc-mastercard"></i>
+                 <i class="fab fa-cc-apple-pay"></i>
+                 <i class="fab fa-cc-paypal"></i>
+                 <i class="fab fa-cc-visa"></i>
+             </div>
+         </div>
+
+     </div>
+ </footer>
+   <!-- end footer -->
+    <!-- js boostrap -->
+    <script src="../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- click slider js -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../assets/slick/slick.min.js"></script>
+    <!-- main js -->
+    <script src="../assets/js/eduma.js"></script>
+ <script>
+     $('.slider').slick({
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         dots: true,
+         speed: 1500,
+         arrows: false,
+         controls: true,
+         adaptiveHeight: true,
+         draggable: true,
+         autoplay: false,
+         cssEase: 'cubic-bezier(.16,.43,.35,.64)'
+     });
+
+     $('.cate-items').slick({
+         slidesToShow: 6,
+         slidesToScroll: 1,
+         accessibility: false,
+         prevArrow: $('.prev'),
+         nextArrow: $('.next'),
+         adaptiveHeight: true,
+         draggable: true,
+         infinite: true,
+
+         swipe: true,
+         swipeToSlide: true,
+         responsive: [{
+                 breakpoint: 1024,
+                 settings: {
+                     slidesToShow: 5
+                 }
+             },
+             {
+                 breakpoint: 480,
+                 settings: {
+                     slidesToShow: 2,
+                     slidesToScroll: 2,
+                     dots: true,
+                 }
+             }
+         ]
+     });
+
+     $('.wrap-discount-banner-slide').slick({
+         slidesToShow: 3,
+         slidesToScroll: 1,
+         dots: false,
+         arrows: false,
+         responsive: [{
+             breakpoint: 766,
+             settings: {
+                 slidesToShow: 1,
+                 dots: true
+             }
+         }]
+     });
+
+     $(document).ready(function() {
+         $('.brand-slide').slick({
+             slidesToShow: 6,
+             slidesToScroll: 1,
+             touchThreshold: 0,
+             arrows: false,
+             dots: false,
+             infinite: false,
+             swipe: true,
+
+             responsive: [{
+                     breakpoint: 1024,
+                     settings: {
+                         slidesToShow: 5,
+                         touchThreshold: 10,
+                     }
+                 },
+                 {
+                     breakpoint: 479,
+                     settings: {
+                         slidesToShow: 2,
+                         touchThreshold: 10,
+                         dots: true,
+                     }
+                 }
+             ]
+
+         });
+
+     })
+ </script>
+
+ </script>
+ </body>
+
+ </html>

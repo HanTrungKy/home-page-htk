@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto Slab';
+
+:root {
+    --primay-color: #003AAA;
+    --bg-sub-head: rgba(243, 247, 255, 1);
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --color-text: black;
+    --color-text-white: white;
+    --bg-slider-2: #26507F;
+    --bg-slider-1: #00776E;
+    --bg-slider-3: #CEB096;
+    --bg-btn-w: white;
+    --hover-shop-now: #FFC700;
+    --color-text-hover-shop-now: white;
+    --color-warning: #E74040;
+    --bg-hover: #FFC700;
+    --box-bg-color: blue;
+
+}
