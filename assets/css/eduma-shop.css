@@ -12,7 +12,7 @@
     --bg-btn-w: white;
     --hover-shop-now: #FFC700;
     --color-text-hover-shop-now: white;
-    --color-warning: #E74040;
+    /* --color-warning: #E74040; */
     --bg-hover: #FFC700;
     --box-bg-color: blue;
 
@@ -25,7 +25,7 @@
 .pagination {
     width: 100px;
     height: 20px;
-    background: red;
+    background: #0d6efd;
 }
 
 
